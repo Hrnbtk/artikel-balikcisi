@@ -1,0 +1,12 @@
+{
+  "appId": "com.artikelbalikcisi.app",
+  "appName": "Artikel Balıkçısı",
+  "webDir": "www",
+  "backgroundColor": "#0d1c28",
+  "android": { "backgroundColor": "#0d1c28" },
+  "ios": { "backgroundColor": "#0d1c28", "contentInset": "never", "scrollEnabled": true },
+  "plugins": {
+    "SplashScreen": { "launchAutoHide": false, "backgroundColor": "#0d1c28", "showSpinner": false },
+    "StatusBar": { "style": "DARK", "backgroundColor": "#0d1c28", "overlaysWebView": false }
+  }
+}

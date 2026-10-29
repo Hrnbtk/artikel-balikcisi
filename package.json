@@ -1,0 +1,28 @@
+{
+  "name": "artikel-balikcisi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Artikel Balıkçısı: Almanca der/die/das öğreten balık tutma oyunu",
+  "scripts": {
+    "hazirla": "node scripts/hazirla.mjs",
+    "ikonlar": "capacitor-assets generate --ios --android --iconBackgroundColor '#0d1c28' --iconBackgroundColorDark '#0d1c28' --splashBackgroundColor '#0d1c28' --splashBackgroundColorDark '#0d1c28'",
+    "sync": "npm run hazirla && cap sync",
+    "android": "npm run sync && cap open android",
+    "ios": "npm run sync && cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/app": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/filesystem": "^8.0.0",
+    "@capacitor/ios": "^8.0.0",
+    "@capacitor/preferences": "^8.0.1",
+    "@capacitor/share": "^8.0.0",
+    "@capacitor/splash-screen": "^8.0.0",
+    "@capacitor/status-bar": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.0.0"
+  }
+}

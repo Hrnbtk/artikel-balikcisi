@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16243a"/><stop offset=".55" stop-color="#6b3f5a"/><stop offset="1" stop-color="#f08a3c"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f4a63"/><stop offset="1" stop-color="#0d1c28"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="512" cy="560" r="170" fill="#f7d9a0" opacity=".9"/>
+  <rect y="560" width="1024" height="464" fill="url(#sea)"/>
+  <g stroke="#3d6e8a" stroke-width="10" stroke-linecap="round" opacity=".7">
+    <path d="M120 640h160M380 620h120M640 650h200M180 900h140M700 930h160"/>
+  </g>
+  <!-- line from top -->
+  <path d="M512 0 V430" stroke="#f4ecda" stroke-width="8"/>
+  <!-- fish -->
+  <g transform="translate(512 720) rotate(-12)">
+    <path d="M150 0 L270 -90 L250 0 L270 90 Z" fill="#c9971a"/>
+    <ellipse cx="0" cy="0" rx="230" ry="140" fill="#f2c230"/>
+    <path d="M-60 -136 Q20 -230 110 -120" fill="#c9971a"/>
+    <circle cx="-130" cy="-30" r="30" fill="#0d1c28"/><circle cx="-140" cy="-40" r="10" fill="#fff"/>
+    <path d="M-225 20 q20 25 50 20" stroke="#0d1c28" stroke-width="10" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- three lures: der die das -->
+  <g>
+    <circle cx="512" cy="455" r="40" fill="#4a8fe7" stroke="#0d1c28" stroke-width="8"/>
+    <path d="M512 495 V530 q0 30 -25 30" stroke="#f4ecda" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <circle cx="372" cy="410" r="32" fill="#e65a52" stroke="#0d1c28" stroke-width="8"/>
+    <circle cx="652" cy="410" r="32" fill="#44b97a" stroke="#0d1c28" stroke-width="8"/>
+    <path d="M372 378 L512 300 L652 378" stroke="#f4ecda" stroke-width="6" fill="none"/>
+    <path d="M512 300 V415" stroke="#f4ecda" stroke-width="6"/>
+  </g>
+</svg>
